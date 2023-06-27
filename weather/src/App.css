@@ -1,0 +1,62 @@
+*{
+  font-family: cursive;
+}
+
+.weatherBG{
+  background: url(imgs/background.jpg) no-repeat;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.heading{
+  color: white;
+  font-size: 700;
+}
+
+.btn, .btn-primary{
+  color: white ;
+  font-size: 20px;
+  background: linear-gradient(50deg, rgba(172, 98, 29) , rgba(111, 79, 58));
+  border: 1px solid rgba(255, 255, 255, 0.267);
+  border-radius: 10px;
+}
+.btn:hover{
+  background:linear-gradient(50deg, rgb(172, 120, 29) , rgb(111, 79, 58)); 
+  border: 1px solid grey;
+}
+
+.weatherResultBox{
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  background-color: rgba(90, 58, 43, 0.616);
+  border-bottom-right-radius: 20px !important;
+  box-shadow: 5px 5px 100px 40px rgb(51, 31, 18) !important;
+
+}
+.weatherIcon{
+  margin: 2rem ;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px double rgb(166, 202, 202);
+  border-radius: 10px;
+}
+
+.weatherCity{
+  font-size: 35px;
+  color: white;
+}
+
+.weatherTemp{
+   font-size: 45px;
+   font-weight: 700;
+   color: white;
+   stroke-width: 5px;
+   stroke: black;
+}
